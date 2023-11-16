@@ -1,0 +1,19 @@
+
+.contents {
+    padding: 8px 80px;
+    text-align: left;
+}
+
+.float {
+    display: flex;
+}
+
+.image {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+a:hover {
+    color:#CE3B6C;
+}
