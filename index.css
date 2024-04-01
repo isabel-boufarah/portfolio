@@ -5,7 +5,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3 {
+.main-column h3 {
     font-size: 40px;
     font-family: Garamond, serif;
     margin-bottom: 12px;

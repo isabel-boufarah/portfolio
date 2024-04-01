@@ -1,10 +1,13 @@
-h {
-
+h1 {
+    text-align: left;
 }
 
 .contents {
-    padding: 8px 200px;
+    /* padding: 8px 200px; */
     text-align: left;
+    max-width: 680px;
+    width:85%;
+    margin: auto;
 }
 
 .float {
@@ -19,4 +22,8 @@ h {
 
 a:hover {
     color:#CE3B6C;
+}
+
+.figma {
+    overflow: scroll;
 }
