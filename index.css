@@ -6,15 +6,32 @@ body {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 40px;
     font-family: Garamond, serif;
     margin-bottom: 12px;
     text-align: left;
-    padding-left: 80px;
+}
+
+.main-column {
+    /* padding-left: 80px; */
+    width: 85%;
+    max-width: 90rem;
+    margin:auto;
+}
+
+.subtitle {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.subtitle a{
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .work-list {
-    padding: 48px 80px;
+    /* padding: 48px 80px; */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,17 +54,6 @@ h3 {
     margin-top: 0px;
     margin-bottom: 12px;
 
-}
-
-.subtitle {
-    margin-bottom: 12px;
-    text-align: left;
-    padding-left: 80px;
-}
-
-.subtitle a{
-    padding-left: 3px;
-    padding-right: 3px;
 }
 
 .work img {
@@ -77,3 +83,18 @@ h5 {
     font-weight: normal;
 }
 
+@media (max-width: 660px) {
+    .work-list {
+        flex-direction: column;
+    }
+
+    .work {
+        width: 100%;
+    }
+}
+
+@media (min-width: 90rem) {
+    .main-column {
+       
+    }
+}
