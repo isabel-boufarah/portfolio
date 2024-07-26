@@ -30,7 +30,7 @@ let footerContent = `
     <div>
         <ul class="main-column">
             <li><span class="label">Creative Director:</span> Soomin Kim</li>
-            <li><span class="label">Desiger & Developer:</span> Isabel Boufarah</li>
+            <li><span class="label">Designer & Developer:</span> Isabel Boufarah</li>
             <li>Interaction Foundations 2024 - Washington University in St. Louis</li>
             <li>Copy from Wikipedia</li>
         </ul>
