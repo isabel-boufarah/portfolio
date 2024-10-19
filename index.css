@@ -69,6 +69,10 @@ h4 {
     nav {
         flex-direction: column;
         align-items: flex-start;
+        padding: 32px 0 32px 0;
+        width: 85%;
+        max-width: 90rem;
+        margin:auto;
     }
 }
 
