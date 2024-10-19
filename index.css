@@ -88,12 +88,6 @@ svg {
     stroke-width: 2px;
 }
 
-/* .work-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
-
 .work {
     display: flex;
     flex-direction: row;
@@ -112,13 +106,16 @@ svg {
 @media (max-width: 1024px) {
     .work {
         flex-direction: column;
+        gap: 8px;
     }
 
-    .left, .right {
+    .left {
         width: 100%;
+        margin-bottom: 16px;
     }
 
     .right {
+        width: 100%;
         margin-bottom: 64px;
     }
 }
@@ -133,12 +130,6 @@ svg {
 .work img:hover {
     filter: saturate(0);
 }
-
-/* .label-name {
-    font-weight: 600;
-} */
-
-
 
 footer {
     padding: 64px 0px;
